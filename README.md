@@ -1,6 +1,6 @@
 # npmtest-curry
 
-#### test coverage for  [curry (v1.2.0)](https://github.com/dominictarr/curry)  [![npm package](https://img.shields.io/npm/v/npmtest-curry.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-curry) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-curry.svg)](https://travis-ci.org/npmtest/node-npmtest-curry)
+#### basic test coverage for  [curry (v1.2.0)](https://github.com/dominictarr/curry)  [![npm package](https://img.shields.io/npm/v/npmtest-curry.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-curry) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-curry.svg)](https://travis-ci.org/npmtest/node-npmtest-curry)
 
 #### flexible but simple curry function
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-curry/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-curry/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-curry/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-curry/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-curry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-curry/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-curry/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-curry/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-curry/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-curry/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-curry/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-curry/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
         ],
         "harness": "mocha"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
